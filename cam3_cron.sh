@@ -8,7 +8,7 @@ find $FOLDER/bilder/ -name *.jpg -exec mv {} $FOLDER/$NAME \;
 
 #Create tar-ball for transfer to nasa
 tar zcf $FOLDER/$NAME.tgz $FOLDER/$NAME
-scp $FOLDER/$NAME.tgz rickard@webben.nu:/home/rickard/igelosa/cam3
+scp $FOLDER/$NAME.tgz nnn@nnn.nu:/home/nnn/igelosa/cam3
 
 #Remove old files
 FILE=$FOLDER/$(date -d "3 days ago" +"%Y%m%d")
