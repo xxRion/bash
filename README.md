@@ -1,6 +1,11 @@
-bash
+Bourne-again shell
 ====
 
 Diverse bra-att-ha script
 <hr>
-//Rickard
+* Camscript Igelösa
+* Mountscript Cifs
+* Startscript VirtualBox
+* Movescript Pictures on nas
+
+''//Rickard''
